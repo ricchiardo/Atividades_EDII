@@ -6,6 +6,7 @@ public class selection_sort {
 
     int posicao_menor, aux;
     int trocas = 0;
+    int comparacoes = 0;
 
     for(int i=0; i < vetor.length; i++){ //começa a percorrer o vetor da primeira posição.
       posicao_menor = i; //atribui a menor posição para o primeiro elemento do vetor.
@@ -13,6 +14,7 @@ public class selection_sort {
       for(int j = i+1; j < vetor.length; j++){ //percorre o vetor para comparar qual é a menor posição.
         if (vetor[j] < vetor[posicao_menor]){ //compara os elementos.
           posicao_menor = j; //atribui o real menor valor do vetor.
+          comparacoes++;
         }
       }
 
@@ -22,6 +24,6 @@ public class selection_sort {
     trocas++;
     }
 
-  return new Resultado(vetor, trocas);
+  return new Resultado(vetor, trocas, comparacoes);
   }
 }
