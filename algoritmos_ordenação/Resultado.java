@@ -34,5 +34,6 @@ public class Resultado {
     public void setComparacoes(int comparacoes) {
         this.comparacoes = comparacoes;
     }
+    
 
 }

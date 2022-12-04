@@ -5,8 +5,8 @@ import java.io.*;
 public class principal {
     public static void main(String[] args) throws IOException {
         Timer timer = new Timer();
-        String path = "C:\\Users\\richa\\OneDrive\\Área de Trabalho\\Atividade02\\arquivos_dados\\1-dados5.txt";
-        //String path = "C:\\Users\\richa\\OneDrive\\Área de Trabalho\\Atividade02\\arquivos_dados\\2-dados100.txt";
+        //String path = "C:\\Users\\richa\\OneDrive\\Área de Trabalho\\Atividade02\\arquivos_dados\\1-dados5.txt";
+        String path = "C:\\Users\\richa\\OneDrive\\Área de Trabalho\\Atividade02\\arquivos_dados\\2-dados100.txt";
         //String path = "C:\\Users\\richa\\OneDrive\\Área de Trabalho\\Atividade02\\arquivos_dados\\3-dados1000.txt";
         //String path = "C:\\Users\\richa\\OneDrive\\Área de Trabalho\\Atividade02\\arquivos_dados\\4-dados10_mil.txt";
         //String path = "C:\\Users\\richa\\OneDrive\\Área de Trabalho\\Atividade02\\arquivos_dados\\5-dados50_mil.txt";

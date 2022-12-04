@@ -25,5 +25,6 @@ public class selection_sort {
     }
 
   return new Resultado(vetor, trocas, comparacoes);
+  
   }
 }

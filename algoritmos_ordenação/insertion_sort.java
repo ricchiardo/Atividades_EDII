@@ -15,6 +15,7 @@ public class insertion_sort {
             }
             vetor[i + 1] = key; //substitui o valor que foi guardado na posição correta.
             trocas++;
+            
         }
         return new Resultado(vetor, trocas,0);
     }
